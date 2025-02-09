@@ -17,11 +17,11 @@ body{
 }
 .sobre-kaij{
     width: 50%;
-    margin: 40px;
+    margin: 4px;
     border: 2px solid black;
     border-radius: 10px ;
     margin-left: 28%;
-    padding: 4px;
+    padding: 2px;
     font-style: italic;
     opacity: 0.9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -39,11 +39,26 @@ body{
 .opening-text{
     background-color: black;
     opacity: 0.9;
-    width: 100px;
+    padding: 6px;
+    width: 110px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 3px;
     color: red;
     margin-left: 90px;
     font-size: 25px;
+}
+.Sinopse{
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    opacity: 0.9;
+    width: 110px;
+    border-radius: 3px;
+    color: red;
+    margin: 30px;
+    margin-left: 47%;
+    font-size: 25px;
+    color:red; 
 }
 .video-op{
     width: 500px;
@@ -51,9 +66,9 @@ body{
 .video-bord{
     width: 80px;
     border-radius: 5px;
-    background-color: red;
+    background-color: rgb(212, 21, 21); 
     margin-left: -100px;
-    border: 4px solid red;
+    border: 4px solid rgb(212, 21, 21);
 }
 .title-main{
     color: rgb(247, 247, 247);
@@ -62,10 +77,13 @@ body{
 .bord-img{
     border: none;
     width: 10px;
-    border: 2spx solid red;
+    border: none;
     margin-left: 40%;
 }
-
+.final-inf{
+  background-color: black;
+  padding: 40px;
+}
 .img-kaiji{
     padding: 5px;
     margin-left: -1%;
