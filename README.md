@@ -22,7 +22,8 @@
 <h3>Layout no computador</h3>
 
 ![image](https://github.com/user-attachments/assets/b990ac62-69c4-46c2-9f0e-9f02f061a287)
-![image](https://github.com/user-attachments/assets/b2061c93-3ce2-4f94-b59b-641761136e77)
+![image](https://github.com/user-attachments/assets/17ce6818-6932-4ef0-ad5b-a9840747a20f)
+
 
 <h3>Layout no celular</h3>
 
