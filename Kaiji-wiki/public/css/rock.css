@@ -8,43 +8,78 @@ body{
     background-image: url(/assents/Rock-cards.jpg);
 }
 .desc1{
-    color: black;
+    color: red;
     padding: 30px;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 2px;
     position: absolute;
-    background-color: white;
+    background-color: rgb(48, 42, 42) ;
     display: flex;
     width: 200px;
     top: 80%;
     margin-left: 20%;
+    animation: desc1 infinite 5s ;
 }
 .desc2{
-    color: black;
+    color: red;
     padding: 35px;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 2px;
     position: absolute;
-    background-color: white;
+    background-color: rgb(34, 27, 27);
     display: flex;
     width: 200px;
     top: 140%;
     margin-left: 21%;
+    animation: desc2 infinite 5s ;
 }
 .desc{
-    color: black;
+    color: red;
     padding: 30px;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 2px;
     position: absolute;
-    background-color: white;
+    background-color: rgb(34, 27, 27);
     display: flex;
     width: 200px;
     top: 29%;
     margin-left: 20%;
+    animation: desc infinite 5s ;
+}
+@keyframes desc2{
+    50%{
+        background-color: black;
+        color:red;
+    }
+    100%{
+        background-color: red;
+        color: black;
+    }
+}
+
+@keyframes desc{
+    50%{
+        background-color: black;
+        color:red;
+    }
+    100%{
+        background-color: red;
+        color: black;
+    }
+}
+
+@keyframes desc1{
+    50%{
+        background-color: black;
+        color:red;
+    }
+    100%{
+        background-color: red;
+        color: black;
+    }
 }
 .title-3{
     margin-left: 30px;
@@ -122,8 +157,9 @@ strong:hover{
     margin: 30px;
     border: 3px solid red;
     width: 440px;
+    background-color: black;
     height: 300px;
-    margin-left: -10%;
+    margin-left: -15%;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -159,4 +195,22 @@ strong:hover{
 .zoom-effect {
     transform: scale(1.1);
     transition: transform 0.2ms ease-in-out;
+}
+#tesoura{
+    margin-left:-10%;
+    background-color: black;
+    border-radius: 40px;
+}
+.button-a{
+    color: red;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 34%;
+    text-decoration: none;
+    transition: transform 20s;
+}
+.button-a:hover{
+    transform: scalex(1.2);
+    color: white;
 }

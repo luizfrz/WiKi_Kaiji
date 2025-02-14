@@ -53,4 +53,4 @@ let index = 0;
         function AnteSlide() {
             index = (index - 1 + totalSlides) % totalSlides;
             showSlide();
-        }
+ }
