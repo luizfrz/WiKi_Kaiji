@@ -1,15 +1,56 @@
-function scrollcardpapel() {
-    document.getElementById('papel').scrollIntoView({
-        behavior: 'smooth' 
+function scrollcardtesoura() {
+    let elemento = document.getElementById('tesoura');
+
+    elemento.scrollIntoView({
+        behavior: 'smooth'
     });
+
+    elemento.classList.add('zoom-effect');
+
+    setTimeout(() => {
+        elemento.classList.remove('zoom-effect');
+    }, 1000);
+}
+function scrollcardpapel() {
+    let elemento = document.getElementById('papel');
+
+    elemento.scrollIntoView({
+        behavior: 'smooth'
+    });
+
+    elemento.classList.add('zoom-effect');
+
+    setTimeout(() => {
+        elemento.classList.remove('zoom-effect');
+    }, 1000);
 }
 function scrollcardpedra() {
-    document.getElementById('pedra').scrollIntoView({
-        behavior: 'smooth' 
+    let elemento = document.getElementById('pedra');
+
+    elemento.scrollIntoView({
+        behavior: 'smooth'
     });
+
+    elemento.classList.add('zoom-effect');
+
+    setTimeout(() => {
+        elemento.classList.remove('zoom-effect');
+    }, 1000);
 }
-function scrollcardtesoura() {
-    document.getElementById('tesoura').scrollIntoView({
-        behavior: 'smooth' 
-    });
-}
+let index = 0;
+        const slides = document.querySelector(".slides");
+        const totalSlides = document.querySelectorAll(".slides img").length;
+
+        function showSlide() {
+            slides.style.transform = `translateX(${-index * 100}%)`;
+        }
+        
+        function ProximoSlide() {
+            index = (index + 1) % totalSlides;
+            showSlide();
+        }
+        
+        function AnteSlide() {
+            index = (index - 1 + totalSlides) % totalSlides;
+            showSlide();
+        }
