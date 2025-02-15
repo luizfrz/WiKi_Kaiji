@@ -8,7 +8,7 @@
 <body>
     <form method="post" action="sugestao.php" >
         <fieldset>
-            <label>Faça uma sugestao</label>
+            <legend class="Sugestao">Faça uma sugestao</legend>
             <img src="/assents/kaiji-removebg-preview.png" alt="kaij">
             <input  autocomplete="off" class="text" type="text" placeholder="Qual gostaria de ver?">
             <br>
@@ -17,7 +17,6 @@
     </form>
     <style>
         body{
-
         }
         fieldset{
             border-radius: 2px;
@@ -27,9 +26,15 @@
             margin-left: 38%;
             border: 3px solid black;
         }
+        .Sugestao{
+            color: red;
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
         .text{
             padding: 10px;
             margin: 2px;
+            margin-left: 50px;
             font-size: 20px;
         }
         .button{
@@ -37,9 +42,11 @@
             color: white;
             cursor: pointer;
             border: 2px solid black;
-            border-radius: 10px;
+            border-radius: 5px;
             padding: 15px;
-            transition: transform 3ms;
+            text-align: center;
+            width: 300px;
+            transition: transform 6ms;
             margin: 30px;
         }
         .button:hover{
