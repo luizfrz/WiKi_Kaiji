@@ -15,7 +15,7 @@
    $sendpet = $_POST['ENVIAR'];
    
 
-   $putzoo = $conection->prepare("INSERT INTO zooputphp (zoopot) VALUES (?)");
+   $bancosug = $conection->prepare("INSERT INTO zooputphp (zoopot) VALUES (?)");
    if (!$putzoo) {
        die('Erro na tentativa: ' . $conection->error);
    }
