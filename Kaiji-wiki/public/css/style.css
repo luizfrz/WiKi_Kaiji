@@ -16,13 +16,14 @@ body{
     background-size: cover;
 }
 .person-name{
-    width:60px;
+    width:100px;
     margin: 4px;
     color:red;
+    font-size:25px;
     text-align: center;
     border: 3px solid black;
     border-radius: 10px ;
-    margin-left: 24%;
+    margin-left: 19%;
     padding: 5px;
     background-color: black;
 }
@@ -96,8 +97,32 @@ body{
   padding: 40px;
 }
 .img-kaiji{
-    padding: 5px;
-    margin-left: -1%;
+    padding: 290px;
+    width: 200px;
+    margin-left: 5%;
+    animation: img-kaiji infinite 5s ;
+}
+@keyframes img-kaiji {
+    0%{
+        background-image: url(/assents/Frente-Kaij-removebg-preview.png);
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-repeat: no-repeat;
+        background-image: url(/assents/Costa-Kaij-removebg-preview.png);
+    }
+    80%{
+        background-repeat: no-repeat;
+        background-image: url(/assents/Frente-Kaij-removebg-preview.png);
+    }
+    90%{
+        background-repeat: no-repeat;
+        background-image: url(/assents/Costa-Kaij-removebg-preview.png);
+    }
+    100%{
+        background-repeat: no-repeat;
+        background-image: url(/assents/Frente-Kaij-removebg-preview.png)
+    }
 }
 .menu {
     list-style: none; 
@@ -118,5 +143,5 @@ body{
 .menu-link:hover {
     color: red;
     border-radius: 4px;
-    background-color: rgb(196, 14, 14); 
+    background-color: black;
 }
