@@ -1,5 +1,5 @@
 <?php
-   $servidor = '127.0.0.1';
+   $servidor = '';
    $porta = 3306;
    $user = '';
    $password = '';
@@ -12,21 +12,21 @@
    }
    echo "Conectado com sucesso";
    
-   $sendpet = $_POST['ENVIAR'];
+   $enviar = $_POST['ENVIAR'];
    
 
-   $bancosug = $conection->prepare("INSERT INTO zooputphp (zoopot) VALUES (?)");
-   if (!$putzoo) {
+   $banco= $conection->prepare("INSERT INTO nomedobanco(tabela) VALUES (?)");
+   if (!$banco) {
        die('Erro na tentativa: ' . $conection->error);
    }
    
 
-   $putzoo->bind_param("s", $sendpet);
-   if (!$putzoo->execute()) {
-       die('Erro ao inserir os dados: ' . $putzoo->error);
+   $banco->bind_param("s", $enviar);
+   if (!$banco->execute()) {
+       die('Erro ao inserir os dados: ' . $banco->error);
    }
    
-   $putzoo->close();
+   $banco->close();
    $conection->close();
 
    header("Location: .html");
