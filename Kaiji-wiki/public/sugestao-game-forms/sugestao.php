@@ -1,6 +1,6 @@
 <?php
    $servidor = '';
-   $porta = 3306;
+   $porta = ;
    $user = '';
    $password = '';
    $sugestao = '';
