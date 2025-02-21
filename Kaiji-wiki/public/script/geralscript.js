@@ -54,3 +54,12 @@ let index = 0;
             index = (index - 1 + totalSlides) % totalSlides;
             Slides();
  }
+const CardPedra = document.getElementById('Pedra-card')
+const CardPapel = document.getElementById('Papel-card')
+const CardTesoura = document.getElementById('Tesoura-card')
+document.addEventListener('click', CardPapel)
+if (CardPapel ) {
+}
+else{
+    alert("voce perdeu")
+}

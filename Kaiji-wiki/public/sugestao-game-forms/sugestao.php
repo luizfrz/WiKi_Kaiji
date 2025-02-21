@@ -12,7 +12,7 @@
    }
    echo "Conectado com sucesso";
    
-   $enviar = $_POST['ENVIAR'];
+   $enviar = $_POST['ENVIAR SUGESTAO'];
    
 
    $banco= $conection->prepare("INSERT INTO nomedobanco(tabela) VALUES (?)");
