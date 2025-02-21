@@ -58,8 +58,7 @@ const CardPedra = document.getElementById('Pedra-card')
 const CardPapel = document.getElementById('Papel-card')
 const CardTesoura = document.getElementById('Tesoura-card')
 document.addEventListener('click', CardPapel)
-if (CardPapel ) {
-}
+if (CardPapel > CardPedra ) {
+}   
 else{
-    alert("voce perdeu")
 }
