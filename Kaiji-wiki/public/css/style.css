@@ -149,7 +149,7 @@ body{
     transition: background-color 0.3s; 
 }
 .menu-link:hover {
-    color: rgb(19, 105, 145);
+    color: red;
     border-radius: 4px;
-    background-color: rgb(16, 90, 124);
+    background-color: rgb(196, 14, 14);
 }

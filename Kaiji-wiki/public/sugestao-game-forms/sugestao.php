@@ -1,6 +1,6 @@
 <?php
    $servidor = '';
-   $porta = ;
+   $porta = '';
    $user = '';
    $password = '';
    $sugestao = '';
@@ -11,11 +11,10 @@
        die("Conexão falhou, tente novamente: " . $conection->connect_error);
    }
    echo "Conectado com sucesso";
-   
-   $enviar = $_POST['ENVIAR SUGESTAO'];
-   
 
-   $banco= $conection->prepare("INSERT INTO nomedobanco(tabela) VALUES (?)");
+   $enviar = $_POST['ENVIAR SUGESTAO'];
+
+   $banco = $conection->prepare("INSERT INTO nomedobanco(tabela) VALUES (?)");
    if (!$banco) {
        die('Erro na tentativa: ' . $conection->error);
    }
