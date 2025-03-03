@@ -1,5 +1,6 @@
 ![Kaiji-background](https://github.com/user-attachments/assets/3b9facdf-bc97-4c2f-ae11-758beca7bd4f)
 
+
 <h1>Kaiji</h1>
 <p>Kaiji (カイジ) é um jovem sem ambição que desistiu do trabalho após ser demitido devido à recessão do Japão. Ele passa os dias bebendo e se entregando ao vício do jogo, muitas vezes perdendo o pouco dinheiro que tem. Um dia, ele é visitado por um agiota que o informa que seu ex-colega de trabalho desapareceu e não fez um único pagamento. Como Kaiji era seu fiador do empréstimo, ele está sobrecarregado com a dívida de 3.850.000 ienes. Incapaz de pagar uma quantia tão grande, o agiota o informa sobre um evento de jogo ilegal patrocinado pela empresa de empréstimos, Teiai , que eliminará a dívida de qualquer vencedor. Com pouca escolha restante, Kaiji se inscreve, incerto sobre o que seu futuro reserva.</p>
 
