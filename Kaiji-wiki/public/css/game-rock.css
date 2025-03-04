@@ -3,3 +3,44 @@
     margin: 0%;
     box-sizing: border-box;
 }
+header{
+    background-image: url(/assents/kaiji-ecard-background.png);
+    background-size: cover;
+}
+h3{
+    text-align: center;
+    margin-left: -64%;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cartas{
+    margin-left: 40%;
+}
+.title-game{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    background-color: black;
+}
+.regras-game{
+    padding: 2px;
+    border-radius: 2px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    background-color: black;
+}
+.regruinhas{
+    margin-left: 40%; 
+}
+.list-game li{
+    margin: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    list-style: none;
+}

@@ -9,24 +9,28 @@
 </head>
 <header>
     <div class="regras">
-        <h1>Pedra, Papel, Tesoura</h1>
+        <h1 class="title-game">Pedra, Papel, Tesoura</h1>
         <fieldset>
-            <h2>Regras</h2>
+            <div class="regruinhas">
+            <h2 class="regras-game">Regras</h2>
             <nav>
-                <ul>
+                <ul class="list-game">
                     <li>Jogador precisa se livrar das 12 cartas para conseguir vençer</li>
                     <li>Caso venha perde uma rodada, é retirado uma estrela</li>
                     <li>Tempo limite duração de partida é de 60 Minutos</li>
                 </ul>
+            </div>
             </nav>
         </fieldset>
     </div>
 </header>
 <body>
+    <div class="cartas">
     <h3>Cartas</h3>
     <img src="/assents/papel-removebg-preview.png" width="100px" alt="pedra">
     <img src="/assents/card__2_-removebg-preview.png" width="100px" alt="papel">
     <img src="/assents/tesoura--removebg-preview.png" width="100px" alt="tesoura">
+</div>
     <div class="pedra">
     
     <div id="game-star">
@@ -34,7 +38,7 @@
             <img src="/assents/papel-removebg-preview.png"  alt="pedra"> 
             <button id="Pedra-card">Selecionar</button>
             <br>
-            <button id="Papel-card">Selecionar</button>
+            <button id="Papel-card" onclick="papel()" >Selecionar</button>
             <img id="Papel-card" src="/assents/card__2_-removebg-preview.png" alt="papel"> 
             <br>
             <button id="Papel-card" onclick="pedra()">Selecionar</button>

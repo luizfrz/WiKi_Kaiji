@@ -37,6 +37,8 @@ function scrollcardpedra() {
         elemento.classList.remove('zoom-effect');
     }, 1000);
 }
-
+function papel(params) {
+    
+}
 
 
