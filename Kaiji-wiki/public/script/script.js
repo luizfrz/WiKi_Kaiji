@@ -37,8 +37,21 @@ function scrollcardpedra() {
         elemento.classList.remove('zoom-effect');
     }, 1000);
 }
-function papel(params) {
-    
+function selecionadopapel() {
+  const papel = document.getElementById('Papel-select');
+  papel.addEventListener('click',   
+    alert("voce jogou pedra")
+  );
 }
-
-
+function selecionadopedra() {
+    const papel = document.getElementById('Pedra-select');
+    papel.addEventListener('click',   
+      alert("voce jogou pedra")
+    );
+  }
+  function selecionadopedra() {
+    const papel = document.getElementById('Tesoura-select');
+    papel.addEventListener('click',   
+      alert("voce jogou tesoura")
+    );
+  }

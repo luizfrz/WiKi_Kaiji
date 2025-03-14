@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/css/game-rock.css">
-    <script src="/public/script/geralscript.js"></script>
+    <script src="/public/script/script.js"></script>
+    <script src=""></script>
     <title>Game</title>
 </head>
 <header>
@@ -36,12 +37,12 @@
     <div id="game-star">
         <fieldset>
             <img src="/assents/papel-removebg-preview.png"  alt="pedra"> 
-            <button id="Pedra-card">Selecionar</button>
+            <button id="Papel-select" onclick="selecionadopedra()">Selecionar</button>
             <br>
-            <button id="Papel-card" onclick="papel()" >Selecionar</button>
+            <button id="Pedra-select"  onclick="selecionadopapel()" >Selecionar</button>
             <img id="Papel-card" src="/assents/card__2_-removebg-preview.png" alt="papel"> 
             <br>
-            <button id="Papel-card" onclick="pedra()">Selecionar</button>
+            <button id="Tesoura-select" onclick="selecionadotesoura()">Selecionar</button>
             <img id="Tesoura-Card" src="/assents/tesoura--removebg-preview.png" alt="tesoura">
             <br>
         </fieldset>
