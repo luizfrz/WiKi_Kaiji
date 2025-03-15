@@ -40,18 +40,18 @@ function scrollcardpedra() {
 function selecionadopapel() {
   const papel = document.getElementById('Papel-select');
   papel.addEventListener('click',   
-    alert("voce jogou pedra")
+    alert(" JOGADOR 1: voce jogou pedra")
   );
 }
 function selecionadopedra() {
     const papel = document.getElementById('Pedra-select');
     papel.addEventListener('click',   
-      alert("voce jogou pedra")
+      alert("JOGADOR 1: voce jogou papel")
     );
   }
-  function selecionadopedra() {
+  function selecionadotesoura() {
     const papel = document.getElementById('Tesoura-select');
     papel.addEventListener('click',   
-      alert("voce jogou tesoura")
+      alert("JOGADOR 1: voce jogou tesoura")
     );
-  }
+}
