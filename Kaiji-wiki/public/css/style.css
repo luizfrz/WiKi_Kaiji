@@ -100,7 +100,8 @@ body{
 
 }
 .watch-style{
-    list-style-type: none;
+    text-decoration: none;
+    color: white;
 }
 .Kaiji-DD{
     border-radius: 2px;
@@ -108,35 +109,6 @@ body{
     background-color: black;
     border: 4px solid black;
 }
-  /* }
-.img-kaiji{
-    padding: 290px;
-    width: 200px;
-    margin-left: 5%;
-    animation: img-kaiji infinite 5s ;
-} */
-/* @keyframes img-kaiji {
-    0%{
-        background-image: url(/assents/Frente-Kaij-removebg-preview.png);
-        background-repeat: no-repeat;
-    }
-    50%{
-        background-repeat: no-repeat;
-        background-image: url(/assents/Costa-Kaij-removebg-preview.png);
-    }
-    80%{
-        background-repeat: no-repeat;
-        background-image: url(/assents/Frente-Kaij-removebg-preview.png);
-    }
-    90%{
-        background-repeat: no-repeat;
-        background-image: url(/assents/Costa-Kaij-removebg-preview.png);
-    }
-    100%{
-        background-repeat: no-repeat;
-        background-image: url(/assents/Frente-Kaij-removebg-preview.png)
-    }
-} */
 .menu {
     list-style: none; 
     display: flex; 
