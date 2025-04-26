@@ -9,6 +9,18 @@
 body{
     background-image: url(/assents/Rock-cards.jpg);
 }
+strong{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+}
+i{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+strong:hover{
+    color:white;
+}
 .desc1{
     color: red;
     padding: 30px;
@@ -51,38 +63,6 @@ body{
     margin-left: 20%;
     animation: desc infinite 5s ;
 }
-@keyframes desc2{
-    50%{
-        background-color: black;
-        color:red;
-    }
-    100%{
-        background-color: red;
-        color: black;
-    }
-}
-
-@keyframes desc{
-    50%{
-        background-color: black;
-        color:red;
-    }
-    100%{
-        background-color: red;
-        color: black;
-    }
-}
-
-@keyframes desc1{
-    50%{
-        background-color: black;
-        color:red;
-    }
-    100%{
-        background-color: red;
-        color: black;
-    }
-}
 .title-3{
     margin-left: 30px;
     color: white;
@@ -109,18 +89,6 @@ body{
     margin-left: 30px;
     padding: 5px;
     font-size: 20px;
-}
-strong{
-    color: red;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 30px;
-}
-i{
-    color: red;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-strong:hover{
-    color:white;
 }
 .Title-Test-game{
     text-align: center;
@@ -231,4 +199,37 @@ strong:hover{
 .button-a:hover{
     transform: scalex(1.2);
     color: white;
+}
+/* Faz animacoes das descricoes das cartas */
+@keyframes desc2{
+    50%{
+        background-color: black;
+        color:red;
+    }
+    100%{
+        background-color: red;
+        color: black;
+    }
+}
+
+@keyframes desc{
+    50%{
+        background-color: black;
+        color:red;
+    }
+    100%{
+        background-color: red;
+        color: black;
+    }
+}
+
+@keyframes desc1{
+    50%{
+        background-color: black;
+        color:red;
+    }
+    100%{
+        background-color: red;
+        color: black;
+    }
 }

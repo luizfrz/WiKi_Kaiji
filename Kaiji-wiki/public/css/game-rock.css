@@ -3,11 +3,6 @@
         margin: 0%;
         box-sizing: border-box;
     }
-    :root{
-    --largura:200px;
-    --bordar: 5px;
-    --cor:red;
-    }
     header{
         background-image: url(/assents/kaiji-ecard-background.png);
         background-size: cover;
@@ -17,6 +12,12 @@
         margin-left: -64%;
         color: red;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+/* uma variavel guardando valores para reutilizar */
+    :root{
+    --largura:200px;
+    --bordar: 5px;
+    --cor:red;
     }
     .cartas{
         margin-left: 40%;
