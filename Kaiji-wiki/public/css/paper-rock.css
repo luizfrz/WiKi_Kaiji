@@ -1,13 +1,13 @@
 @import "/node_modules/@glidejs/glide/src/assets/sass/glide.theme.scss";
-
 *{
     color: black;
     padding: 0;
     margin: 0%;
     box-sizing: border-box;
 }
+/* Background com as 3 cartas */
 body{
-    background-image: url(/assents/Rock-cards.jpg);
+    background-image: url(/assets/photo/Rock-cards.jpg);
 }
 strong{
     color: red;
