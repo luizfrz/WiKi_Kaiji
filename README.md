@@ -9,7 +9,6 @@
 <h2>Criado como forma de wiki para explicar os melhores jogos que considerei no anime</h2>
 <ol><li>
   E-Card </li>
-  
  <li> Pachinko
 </li>
 <li>Pedra, papel e tesoura</li></ol>
