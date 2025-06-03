@@ -13,11 +13,12 @@
 </li>
 <li>Pedra, papel e tesoura</li></ol>
 
-# Sites usado para desenvolvimento
+# Sites usados para o desenvolvimento da wiki
 <ol>
-  <li>Remoção do background: https://www.remove.bg/pt-br</li>
-  <li>Melhoria na imagem: https://www.iloveimg.com/pt</li>
-  <li>Documentacao PHP: https://www.php.net/manual/pt_BR/index.php </li>
+  <li> <a href="https://www.remove.bg/pt-br">Remover Background</a></li>
+  <li> <a href="https://www.iloveimg.com/pt">Melhoria da imagem</a></li>
+ <li>  <a href="https://www.dafont.com/pt/ttf.d592">Fonte</a> </li>
+ <li> <a href="https://kaiji.fandom.com/wiki/Kaiji_Wiki">Wiki de refencia</a> </li>
 </ol>
 
 <h3>Layout</h3>
@@ -26,6 +27,3 @@
 ![image](https://github.com/user-attachments/assets/17ce6818-6932-4ef0-ad5b-a9840747a20f)
 
 
-## Fique a vontade para visualizar e alterar!
-   ```bash
-      git clone https://github.com/luizfrz/kaiji-wiki
