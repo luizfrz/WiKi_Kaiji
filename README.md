@@ -21,9 +21,7 @@
  <li> <a href="https://kaiji.fandom.com/wiki/Kaiji_Wiki">Wiki de refencia</a> </li>
 </ol>
 
-<h3>Layout</h3>
 
-![image](https://github.com/user-attachments/assets/b990ac62-69c4-46c2-9f0e-9f02f061a287)
-![image](https://github.com/user-attachments/assets/17ce6818-6932-4ef0-ad5b-a9840747a20f)
+<img width="1325" height="654" alt="image" src="https://github.com/user-attachments/assets/c1ea7a6b-8470-451b-b32c-8a41d53b96a6" />
 
 
