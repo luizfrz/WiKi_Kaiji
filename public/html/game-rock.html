@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/css/game-rock.css">
     <script src=""></script>
-    <script src="/src/js/script.js"></script>
+    <script src="/src/js/index.js"></script>
     <title>Game</title>
 </head>
 <header>
     <div class="regras">
         <h1 class="title-game">Pedra, Papel, Tesoura</h1>
-        <fieldset>
+        <fieldse class="Fieldset-roll">
             <div class="regruinhas">
             <h2 class="regras-game">Regras</h2>
             <nav>
@@ -26,23 +26,27 @@
     </div>
 </header>
 <body>
+    <fieldset class="background-cards">
     <div class="cartas">
     <h3>Cartas</h3>
-    <img src="/assents/papel-removebg-preview.png" width="100px" alt="pedra">
-    <img src="/assents/card__2_-removebg-preview.png" width="100px" alt="papel">
-    <img src="/assents/tesoura--removebg-preview.png" width="100px" alt="tesoura">
+    <br>
+    <img src="/assets/photo/papel-removebg-preview.png" width="100px" alt="pedra">
+    <img src="/assets/photo/card__2_-removebg-preview.png" width="100px" alt="papel">
+    <img src="/assets/photo/tesoura--removebg-preview.png" width="100px" alt="tesoura">
+    </fieldset>
 </div>
+<br>
     <div class="pedra">
     
     <div id="game-star">
         <fieldset>
-            <h1 class="title-jogador">JOGADOR 1 </h1>
-            <img class="image-pedra" src="/assents/card__2_-removebg-preview.png"  alt="pedra"> 
-            <button class="button-pedra" id="pedraSelect" onclick="selecionadopedra()">Selecionar</button>
-            <img class="image-papel"  src="/assents/papel-removebg-preview.png" alt="papel"> 
-            <button class="button-papel" id="papelSelect"  onclick="selecionadopapel()" >Selecionar</button>
-            <img class="image-tesoura" src="/assents/tesoura--removebg-preview.png" alt="tesoura">
-            <button class="button-tesoura" id="tesouraSelect" onclick="selecionadotesoura()">Selecionar</button>
+            <h1 class="title-player">JOGADOR 1 </h1>
+            <img class="image-pedra"  src="/assets/photo/card__2_-removebg-preview.png"  alt="pedra"> 
+            <button class="cards" id="pedraSelect" onclick="selecionadopedra()">Selecionar</button>
+            <img class="image-papel"  src="/assets/photo/papel-removebg-preview.png" alt="papel"> 
+            <button class="cards" id="papelSelect"  onclick="selecionadopapel()" >Selecionar</button>
+            <img class="image-tesoura" src="/assets/photo/tesoura--removebg-preview.png" alt="tesoura">
+            <button class="cards" id="tesouraSelect" onclick="selecionadotesoura()">Selecionar</button>
         </fieldset>
     </div>
 </body>

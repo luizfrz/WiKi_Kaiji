@@ -2,6 +2,10 @@ const pedra = document.getElementById('pedraSelect');
 const tesoura = document.getElementById('tesouraSelect');
 const papel = document.getElementById('papelSelect');
 
+
+
+
+// Zoom Tela Cards
 function scrollpedra() {
   pedra.scrollIntoView({
     behavior: 'smooth'
@@ -10,12 +14,8 @@ function scrollpedra() {
 
   setTimeout(() =>{
     pedra.classList.remove('zoom-effect');
-  },2000);
+  },500);
 }
-
-
-
-
 
 function scrollcardtesoura() {
     let elemento = document.getElementById('tesoura');
@@ -55,27 +55,4 @@ function scrollcardpedra() {
     setTimeout(() => {
         elemento.classList.remove('zoom-effect');
     }, 1000);
-}
-
-//  JOGO 
-
-function selecionadopapel() {
-  const papel = document.getElementById('Papel-select');
-  papel.addEventListener('click',   
-    alert(" JOGADOR 1: voce jogou pedra")
-  );
-}
-
-function selecionadopedra() {
-    const papel = document.getElementById('Pedra-select');
-    papel.addEventListener('click',   
-      alert("JOGADOR 1: voce jogou papel")
-    );
-  }
-
-  function selecionadotesoura() {
-    const papel = document.getElementById('Tesoura-select');
-    papel.addEventListener('click',   
-      alert("JOGADOR 1: voce jogou tesoura")
-    );
 }
