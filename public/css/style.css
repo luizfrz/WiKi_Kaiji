@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 header{
-    background-image: url(/assents/Kaiji-background.jpg);
+    background-image: url(/assets/photo/Kaiji-background.jpg);
     background-position: 0.1px;
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
 }   
 body{
-    background-image: url(/assents/kaiji-ecard-background.png);
+    background-image: url(/assets/photo/kaiji-ecard-background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -23,7 +23,7 @@ body{
     text-align: center;
     border: 3px solid black;
     border-radius: 10px ;
-    margin-left: 19%;
+    margin-left: 25%;
     padding: 5px;
     background-color: black;
 }
@@ -94,7 +94,7 @@ body{
 }
 .final-inf{
   background-color: black;
-  padding: 40px;
+  padding: 20px;
   color: white;
   text-align: center;
 
@@ -102,6 +102,9 @@ body{
 .watch-style{
     text-decoration: none;
     color: white;
+}
+.watch-style:hover{
+    color: red;
 }
 .Kaiji-DD{
     border-radius: 2px;
@@ -129,4 +132,7 @@ body{
     color: red;
     border-radius: 4px;
     background-color: rgb(196, 14, 14);
+}
+.title-watch{
+    font-size: 20px;
 }

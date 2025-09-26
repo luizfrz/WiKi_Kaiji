@@ -1,3 +1,22 @@
+const pedra = document.getElementById('pedraSelect');
+const tesoura = document.getElementById('tesouraSelect');
+const papel = document.getElementById('papelSelect');
+
+function scrollpedra() {
+  pedra.scrollIntoView({
+    behavior: 'smooth'
+  })
+  pedra.classList,add('zoom-effect');
+
+  setTimeout(() =>{
+    pedra.classList.remove('zoom-effect');
+  },2000);
+}
+
+
+
+
+
 function scrollcardtesoura() {
     let elemento = document.getElementById('tesoura');
 
@@ -37,6 +56,8 @@ function scrollcardpedra() {
         elemento.classList.remove('zoom-effect');
     }, 1000);
 }
+
+//  JOGO 
 
 function selecionadopapel() {
   const papel = document.getElementById('Papel-select');

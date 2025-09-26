@@ -1,5 +1,5 @@
 <?php
-$serverIp =  '';
+$serve =  '';
 $user = '';
 $password =  '';
 $database = '';
